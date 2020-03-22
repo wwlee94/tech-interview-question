@@ -42,5 +42,3 @@
 
 * CI (Continuous Integration): 지속적 통합 -> 코드에 대한 통합을 지속적으로 진행해 품질 유지 -> 즉, 빌드 및 테스트 자동화
 * CD (Continuous Deploy) : 지속적 배포 -> 소프트웨어를 지속적으로 배포해 관리 -> 즉, 배포 자동화
-
-참고 블로그: https://gmlwjd9405.github.io
