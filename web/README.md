@@ -53,3 +53,13 @@ HTML 파서가 문서에 존재하는 어휘와 구문을 분석하면서 DOM �
         * 즉, HTTP Session과 같은 컨텍스트 저장소에 상태 정보를 저장하지 않는다
         * 따라서, 들어온 Request만 Message로 처리하면되고, 컨텍스트 정보를 신경쓰지 않아도 되어 구현이 단순해진다.
     3. Client-Server 아키텍쳐
+
+
+### Static Pages vs Dynamic Pages
+
+<img src="./images/static_dynamic_pages.png" width="70%" height="70%">
+
+* Static Pages - 바뀌지 않는 페이지 -> 웹 서버는 파일 경로 이름을 받고, 경로와 일치하는 File 컨텐츠를 반환함  
+    -> 항상 동일한 페이지를 반환함 ( image, html, css, javascript 등등 컴퓨터에 저장된 파일 )
+* Dynamic Pages - 인자에 따라 바뀌는 페이지 -> 인자의 내용에 맞게 동적인 컨텐츠를 반환함  
+-> WAS 서버에 의해 실행되는 프로그램을 통해 만들어진 결과물 ( Servlet: WAS위에서 돌아가는 자바 프로그램 )
